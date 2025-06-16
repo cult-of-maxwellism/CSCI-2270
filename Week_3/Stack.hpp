@@ -9,6 +9,7 @@ class Stack
         Stack();
         void push(int);
         int pop();
+        int peek();
         bool isEmpty();
 
     private:
