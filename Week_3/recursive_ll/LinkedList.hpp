@@ -18,6 +18,7 @@ class LinkedList {
         void prepend(int);
         Node* search(int);
         void insert(int, int);
+        Node* recursiveReverse (Node*, Node*);
 
     private:
         Node *head;
